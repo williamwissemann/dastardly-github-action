@@ -14,7 +14,7 @@ runs:
   image: 'Dockerfile'
   env:
     BURP_START_URL: ${{ inputs.target-url }}
-    BURP_REPORT_FILE_PATH: /github/workspace/${{ inputs.output-filename }}
+    BURP_REPORT_FILE_PATH: /harness/${{ inputs.output-filename }}
 branding:
   icon: 'activity'
   color: 'green'
