@@ -33,7 +33,7 @@ runs:
         import re
 
         # Parse XML tree
-        tree = ET.parse('dastardly-report.xml')
+        tree = ET.parse('/harness/dastardly-report.xml')
         root = tree.getroot()
 
         # Initialize SARIF schema
